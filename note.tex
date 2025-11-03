@@ -1,55 +1,50 @@
-\documentclass[a4paper, landscape]{article}
-\usepackage{lipsum}
-% \usepackage{wallcalendar}
-\input{preamble.tex}
-% \usepackage{todonotes}
+\documentclass{article}
+\usepackage[a4paper, landscape, total={11in, 6.5in}]{geometry}  % page formatting
+\usepackage{booktabs}                                           % elegant table package
+\usepackage{libertine}                                          % libertine font
 
-%\addbibresource{bibliography.bib}
+
 \newcommand{\puntini}{\dots\dots\dots\dots\dots\dots\dots}
+
 \begin{document}
-
-
 \begin{table}
-\centering
-\Large
-{\bf \Huge Week of~~~{\Large\puntini}}
-\vspace{20pt}
+  \centering
+  \Large
+  {\bf \Huge Week of~~~{\Large\puntini}}
+  \vspace{20pt}
 
-\begin{tabular}{ccccccc}
-\toprule
-                % &    Monday \dots\dots &  Tuesday  \dots\dots & Wednesday \dots\dots & Thursday \dots\dots &    Friday \dots\dots &  Saturday \dots\dots \\
-                & {\bf Monday}~~\dots\dots & {\bf Tuesday}~~\dots\dots & {\bf Wednesday}~~\dots\dots & {\bf Thursday}~~\dots\dots & {\bf Friday}~~\dots\dots & {\bf Saturday}~~\dots\dots  \\
-                &  &  & {} & {} & {} & {} \\
-{\it Morning}   & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-% \midrule
-{\it Afternoon} & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-% \midrule
-{\it Evening}   & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                &  &  & {} & {} & {} & {} \\
-\midrule
-                & {\bf To do} & {\bf To do} & {\bf To do} & {\bf To do} & {\bf To do} & {\bf To do} \\
-                &  &  & {} & {} & {} & {} \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
-                &  &  & {} & {} & {} & {} \\
-\bottomrule
-\end{tabular}
+  \begin{tabular}{ccccccc}
+    \toprule
+                    & {\bf Monday}~~\dots\dots & {\bf Tuesday}~~\dots\dots & {\bf Wednesday}~~\dots\dots & {\bf Thursday}~~\dots\dots & {\bf Friday}~~\dots\dots & {\bf Saturday}~~\dots\dots  \\
+                    &  &  & {} & {} & {} & {} \\
+    {\it Morning}   & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+    % \midrule
+    {\it Afternoon} & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+    % \midrule
+    {\it Evening}   & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    &  &  & {} & {} & {} & {} \\
+    \midrule
+                    & {\bf To do} & {\bf To do} & {\bf To do} & {\bf To do} & {\bf To do} & {\bf To do} \\
+                    &  &  & {} & {} & {} & {} \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                    &  &  & {} & {} & {} & {} \\
+    \bottomrule
+  \end{tabular}
 \end{table}
-% \lipsum{}
-% \gitfootnote{commit: \texttt{\gitAbbrevHash}\hfil date: \texttt{\gitAuthorIsoDate}\hfil \texttt{\gitReferences}}
 
-
+% no page numbering
 \pagestyle{empty}
 \end{document}
