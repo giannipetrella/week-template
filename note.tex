@@ -1,18 +1,55 @@
-\documentclass[10pt, a4paper]{article}
+\documentclass[a4paper, landscape]{article}
+\usepackage{lipsum}
+% \usepackage{wallcalendar}
 \input{preamble.tex}
-\usepackage{todonotes}
+% \usepackage{todonotes}
 
 %\addbibresource{bibliography.bib}
-
-\title{TITLE}
-\author{SPEAKER \\\vspace{0.3cm}\small{Notes of Gianni Petrella}}
-\date{\today}
-
+\newcommand{\puntini}{\dots\dots\dots\dots\dots\dots\dots}
 \begin{document}
 
-\maketitle
-\gitfootnote{commit: \texttt{\gitAbbrevHash}\hfil date: \texttt{\gitAuthorIsoDate}\hfil \texttt{\gitReferences}}
+
+\begin{table}
+\centering
+\Large
+{\bf \Huge Week of~~~{\Large\puntini}}
+\vspace{20pt}
+
+\begin{tabular}{ccccccc}
+\toprule
+                % &    Monday \dots\dots &  Tuesday  \dots\dots & Wednesday \dots\dots & Thursday \dots\dots &    Friday \dots\dots &  Saturday \dots\dots \\
+                & {\bf Monday}~~\dots\dots & {\bf Tuesday}~~\dots\dots & {\bf Wednesday}~~\dots\dots & {\bf Thursday}~~\dots\dots & {\bf Friday}~~\dots\dots & {\bf Saturday}~~\dots\dots  \\
+                &  &  & {} & {} & {} & {} \\
+{\it Morning}   & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+% \midrule
+{\it Afternoon} & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+% \midrule
+{\it Evening}   & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                &  &  & {} & {} & {} & {} \\
+\midrule
+                & {\bf To do} & {\bf To do} & {\bf To do} & {\bf To do} & {\bf To do} & {\bf To do} \\
+                &  &  & {} & {} & {} & {} \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                & \puntini & \puntini & \puntini & \puntini & \puntini & \puntini \\
+                &  &  & {} & {} & {} & {} \\
+\bottomrule
+\end{tabular}
+\end{table}
+% \lipsum{}
+% \gitfootnote{commit: \texttt{\gitAbbrevHash}\hfil date: \texttt{\gitAuthorIsoDate}\hfil \texttt{\gitReferences}}
 
 
-
+\pagestyle{empty}
 \end{document}
